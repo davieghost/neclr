@@ -4,7 +4,6 @@ var connect = require('connect');
 var reload  = require('livereload');
 var open    = require('open');
 var logger  = require('morgan');
-var jade    = require('jade');
 
 var app     = express();
 var server = reload.createServer();
